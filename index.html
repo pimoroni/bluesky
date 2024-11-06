@@ -1,0 +1,256 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Maker's Guide To Bluesky</title>
+    <meta name="description" content="An introduction and onramp to Bluesky for hobby electronics tinkerers and makers.">
+    <style type="text/css">
+        .null {
+            color: #817
+            #a35
+            #c66
+            #e94
+            #ed0
+            #9d5
+            #4d8
+            #2cb
+            #0bc
+            #09c
+            #36b;
+        }
+
+        body {
+            background: #f5f5f5;
+            max-width: 800px;
+            font-size: 1.5em;
+        }
+        code {
+            box-sizing: border-box;
+            min-width: 100%;
+            display: inline-block;
+            padding: 20px;
+            background: #333333;
+            color: #f5f5f5;
+            white-space: pre-wrap;
+            font-family: ui-monospace, 
+             Menlo, Monaco, 
+             "Cascadia Mono", "Segoe UI Mono", 
+             "Roboto Mono", 
+             "Oxygen Mono", 
+             "Ubuntu Monospace", 
+             "Source Code Pro",
+             "Fira Mono", 
+             "Droid Sans Mono", 
+             "Courier New", monospace
+        }
+        code a, code a:visited, code a:active, code a:hover {
+            color: #f5f5f5;
+        }
+        li code, p code {
+            padding: 0.2em;
+            min-width: auto;
+        }
+        h1, h2, h3 {
+            font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+        }
+        h1, h2, h3, p, li, article > a > img {
+            margin: 20px;
+        }
+        h2 {
+            margin-top: 80px;
+        }
+        h3 {
+            margin-top: 60px;
+        }
+        body > header > h3 {
+            margin-top: 10px;
+        }
+        code .user {color: #9d5;}
+        code .path {color: #09c;}
+        code .err {color: #a35;}
+        code .teal {color: #0bc;}
+        code .purp {color: #817;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Maker's Guide To Bluesky</h1>
+        <h3>A brief introduction and onramp to Bluesky for makers and electronics tinkerers!</h3>
+    </header>
+    <main>
+        <section>
+            <header>
+                <h2>Contents</h2>
+            </header>
+            <article>
+                <ul>
+                    <li><a href="#another">Not another social network!</a></li>
+                    <li><a href="#starter">Reunited with old friends.</a>
+                        <ul>
+                            <li><a href="#maker-companies">Electronics Companies(-ish) Starter Pack - by arturio182</a></li>
+                            <li><a href="#makers">Electronics/Makers Starter Pack - by arturio182</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#feeds">Finding fun fings on feeds.</a>
+                        <ul>
+                            <li><a href="#feed-raspberry-pi">All Things Raspberry Pi - by makerbymistake</a></li>
+                            <li><a href="#feed-micropython">MicroPython - by Gadgetoid</a></li>
+                            <li><a href="#feed-electronics">Electronics - by arturio182</a></li>
+                            <li><a href="#feed-pcb-photos">PCB Photos - by arturio182</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section id="another">
+            <header>
+                <h2>Not another social network!</h2>
+            </header>
+            <article>
+                <p>
+                    Despite a few warts we - or I (Hi, it's Phil writing this) - 
+                    believe that Bluesky is a much better foundation for growing
+                    and nurturing a community. And we'd love to invite you along!
+                </p>
+                <p>
+                    Hear us out for a moment here! It's not all doom and gloom,
+                    after all- isn't the whole *point* of what we've all gathered
+                    together for - we, the maker community - to learn and grow and
+                    embrace new and exciting things?
+                </p>
+                <p>
+                    Bluesky is a new thing and, while the name is rather on the nose,
+                    it nonetheless legitimately an exciting and fertile ground of possibility.
+                </p>
+                <p>
+                    In this guide we'll introduce you to the tools Bluesky provides
+                    to reconnect with your maker friends, build and curate your own
+                    community feeds, curate your own lists of awesome folks and
+                    generally take a little bit more charge of your social experience.
+                </p>
+                <p>
+                    This is a rough, living document, if you see something you'd
+                    like to add or change let us know at: <a href="https://github.com/pimoroni/bluesky">https://github.com/pimoroni/bluesky</a>
+                </p>
+            </article>
+        </section>
+        <section id="starter">
+            <header>
+                <h2>Reunited with old friends.</h2>
+            </header>
+            <article>
+                <p>
+                    New things are daunting. Entering a new space that's already
+                    occupied is daunting, but I have good news for you: it's 
+                    occupied with your maker brethren. Some of the coolest folks
+                    around are already here sharing their projects- you just gotta
+                    find 'em!
+                </p>
+                <h3>And that's where starter packs come in...</h3>
+                <p>
+                    Bluesky has this awesome concept called "Starter Packs," these
+                    are user-curated lists of people that you can follow with one
+                    click (or cherry pick, if you prefer). Since what you see on
+                    Bluesky is easier to manage, you'll also find that follow-backs
+                    are liberal- you'll rebuild your network in no time.
+
+                </p>
+            </article>
+        </section>
+        <section>
+            <header>
+                <h2>Okay, okay, gimme those starer packs already!</h2>
+            </header>
+            <article>
+                <h3 id="maker-companies">Electronics Companies(-ish) Starter Pack - by arturio182</h3>
+                <p>
+                    A not-yet-exhaustive (come on over, folks!) list of maker companies and organisations.
+                    Click below or point your phone-a-majig at the QR code!</p>
+                <a href="https://go.bsky.app/HHeNEz5">
+                    <img src="arturio182-maker-companies.png" />
+                </a>
+            </article>
+            <article>
+                <h3 id="makers">Electronics/Makers Starter Pack - by arturio182</h3>
+                <p>
+                    A list of serial hobby makers and electronics tinkerers.
+                    That's you, your friends, and the cool folks you look up to!
+                </p>
+                <a href="https://go.bsky.app/J5RbesE">
+                    <img src="arturio182-makers.png" />
+                </a>
+            </article>
+        </section>
+        <section id="feeds">
+            <header>
+                <h2>Finding fun fings on feeds.</h2>
+            </header>
+            <article>
+                <p>
+                    Rather than siloing you into an algorithmic pit of despair
+                    Bluesky empowers used to create, curate and moderate their
+                    own content feeds- showing posts from select tags, search terms,
+                    users or even just ones inserted manually.
+                </p>
+                <p>
+                    While feeds ostensibly require a bit of programming know-how to
+                    set up, it's possible to use services like <a href="https://Blueskyfeedcreator.com">Bluesky Feed Creator</a>
+                    and bash together your own feed in minutes!
+                </p>
+                <p>
+                    With feeds *you* (or your friends) write the algorithm, effectively
+                    giving you a little community bubble away from the general riff-raff.
+                </p>
+                <p>
+                    Feeds get added to your sidebar, or tabulated along the top of
+                    the app and you can switch between them at your own leisure.
+                </p>
+            </article>
+        </section>
+        <section>
+            <header>
+                <h2>Yes please, I'll take a feed or two!</h2>
+            </header>
+            <article>
+                <h3 id="feed-raspberry-pi">All Things Raspberry Pi - by makerbymistake</h3>
+                <p>
+                    The name says it all, posts relating to the Raspberry Pi!
+                </p>
+                <p>
+                    <a href="https://bsky.app/profile/did:plc:z4wwgyujayrqmj3e24iqi5ab/feed/aaaccqy72zffw">https://bsky.app/profile/did:plc:z4wwgyujayrqmj3e24iqi5ab/feed/aaaccqy72zffw</a>
+                </p>
+            </article>
+            <article>
+                <h3 id="feed-micropython">MicroPython - by Gadgetoid</h3>
+                <p>
+                    Posts specifically referring to MicroPython, CircuitPython
+                    and related technologies!
+                </p>
+                <p>
+                    <a href="https://bsky.app/profile/did:plc:pmwj4rtm2osjxcaluhktsp2r/feed/micropython">https://bsky.app/profile/did:plc:pmwj4rtm2osjxcaluhktsp2r/feed/micropython</a>
+                </p>
+            </article>
+            <article>
+                <h2 id="feed-electronics">Electronics - by arturio182</h2>
+                <p>
+                    An early effort to put together an Electronics feed for Bluesky.
+                </p>
+                <p>
+                    <a href="https://bsky.app/profile/did:plc:rxfz3hrx3feqrk5g6cuukfsj/feed/aaab5jy5ms6qq">https://bsky.app/profile/did:plc:rxfz3hrx3feqrk5g6cuukfsj/feed/aaab5jy5ms6qq</a>
+                </p>
+           </article>
+            <article>
+                <h2 id="feed-pcb-photos">PCB Photos - by arturio182</h2>
+                <p>
+                    Electronics nerd eye-candy. A feed of posts that contain "PCB(s)" with attached images.
+                </p>
+                <p>
+                    <a href="https://bsky.app/profile/did:plc:rxfz3hrx3feqrk5g6cuukfsj/feed/aaacam7itlvp4">https://bsky.app/profile/did:plc:rxfz3hrx3feqrk5g6cuukfsj/feed/aaacam7itlvp4</a>
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
